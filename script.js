@@ -9,8 +9,8 @@ async function countApi() {
             // console.log(data);
 
             for (let i = 0; i < l;) {
-                console.log(data[i].name.common);
-                console.log(data[i].latlng);
+                // console.log(data[i].name.common);
+                // console.log(data[i].latlng);
                 let row = table1.insertRow();
                 for (let j = 0; j < 3;) {
                     let val = data[i];
@@ -25,9 +25,7 @@ async function countApi() {
                         <p>Capital : ${val.capital}</p>
                         <p>Region : ${val.region}</p>
                         <p>Country codes : ${val.area}</p>
-                        <button type="button" onclick="weather('${val.latlng}')" class="btn btn-secondary btn-lg" >Click for Weather</button>
-                      
-
+                        <button type="button" onclick="weather('${val.latlng},${val.name.common}')" class="btn btn-secondary btn-lg" >Click for Weather</button>
                       </div>
                     </div>
                     `;
@@ -42,10 +40,9 @@ async function countApi() {
         });
 }
 
-
-async function weather(latlng) {
+async function weather(latlng, name) {
     latlng = latlng.split(",");
-    console.log(latlng);
+    // console.log(latlng);
     const lat = latlng[0];
     const lon = latlng[1];
     const api = '970c0cfe16b131dc66f2688136ef9751'
@@ -54,7 +51,12 @@ async function weather(latlng) {
     const wedApi = await fetch(url)
         .then((res) => res.json())
         .then((data) => {
-            console.log(data);
+            // console.log(data);
+            // console.log(data.main.temp);
+            temp = data.main.temp;
+            temp = temp - 273.15;
+            temp = temp.toFixed(2);
+            window.alert(`Temperature is ${temp}°C`);
         }).catch((err) => {
             console.log(err);
         })
