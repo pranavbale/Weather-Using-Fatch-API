@@ -39,11 +39,10 @@ View weather information: The application will display the current weather infor
 Screenshots 
 
 Home Page 
-![Uploading Screenshot 2023-06-08 at 6.13.41 PM.png…]()
+<img width="1680" alt="Screenshot 2023-06-08 at 6 13 41 PM" src="https://github.com/pranavbale/Weather-Using-Fatch-API/assets/78872729/6c98a382-256d-40a2-8162-42a424e66192">
 
 Temper 
-![Uploading Screenshot 2023-06-08 at 6.14.29 PM.png…]()
-
+<img width="1680" alt="Screenshot 2023-06-08 at 6 14 29 PM" src="https://github.com/pranavbale/Weather-Using-Fatch-API/assets/78872729/be11b697-31a2-42b6-8c1b-65f26b30b8ea">
 
 
 Conclusion
