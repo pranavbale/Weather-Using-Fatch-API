@@ -37,4 +37,5 @@ View weather information: The application will display the current weather infor
 
 
 Conclusion
+
 The Weather Project is a simple web application that demonstrates how to fetch and display weather data using HTML, CSS, and JavaScript. By following the provided documentation, you can set up and run the project locally to view the current weather information for a specified Country. 
