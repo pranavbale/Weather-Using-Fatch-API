@@ -36,6 +36,18 @@ Open the application: Launch the index.html file in a web browser.
 View weather information: The application will display the current weather information in alert box for the specified Country, to vieve the other country weather informantion close the alert box
 
 
+Screenshots 
+
+Home Page 
+![Uploading Screenshot 2023-06-08 at 6.13.41 PM.png…]()
+
+Temper 
+![Uploading Screenshot 2023-06-08 at 6.14.29 PM.png…]()
+
+
+
 Conclusion
 
 The Weather Project is a simple web application that demonstrates how to fetch and display weather data using HTML, CSS, and JavaScript. By following the provided documentation, you can set up and run the project locally to view the current weather information for a specified Country. 
+
+
