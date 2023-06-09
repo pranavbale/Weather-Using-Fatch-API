@@ -45,7 +45,7 @@ async function weather(latlng, name) {
     // console.log(latlng);
     const lat = latlng[0];
     const lon = latlng[1];
-    const api = '970c0cfe16b131dc66f2688136ef9751'
+    const api = "API_KEY";    // need to add a API_key form the openweather website 
     let url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${api}`;
     // console.log(typeof (lat), lon);
     const wedApi = await fetch(url)
